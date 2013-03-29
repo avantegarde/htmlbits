@@ -1,0 +1,55 @@
+/* Simple Page Style with border */
+
+/*Background Water*/
+
+body { background: #0e446a url(../images/background/ocean-bg.jpg) 50% 0 repeat-x; }
+
+/* Page Style */
+
+#page { 
+	border-color: #c8dfe6;
+	border-color: rgba(35,130,160,0.07);
+	background-color: #e9f4f7;
+	background-color: rgba(255,255,255,0.6);
+}
+
+#page > div {
+	border-color: #deecf1;
+	border-color: rgba(35,130,160,0.15);
+}
+
+#page { 
+	background-clip: padding-box;
+	margin-left: 89px;
+	padding: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e1e1e4;
+	border-color: rgba(0,0,0,0.05);
+	background-color: #f5f5f6;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.9) inset, 
+				0 0 0 1px rgba(255,255,255,0.6) inset;
+}
+
+#page > div {
+	padding: 15px;
+}
+
+#page > div {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #ededef;
+	border: 1px solid rgba(0,0,0,0.08);
+	background: #fff;
+	border-radius: 3px;
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { 
+	color: #45646c;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
